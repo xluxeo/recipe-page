@@ -1,38 +1,41 @@
-# .
+# Frontend Mentor - Social links profile solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended IDE Setup
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Table of contents
 
-## Recommended Browser Setup
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Overview
 
-## Customize configuration
+### Screenshot
+![](image.png)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Links
 
-## Project Setup
+- Solution URL:  (https://github.com/xluxeo/recipe-page)
+- Live Site URL: (https://social-links-profile-eta-eight.vercel.app/)
 
-```sh
-npm install
-```
+## My process
 
-### Compile and Hot-Reload for Development
+### Built with
 
-```sh
-npm run dev
-```
+- Semantic HTML5 markup
+- CSS custom properties
+- Vue.js
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+### Continued development
+- More Vue.js
+- Implement SCSS
+
+## Author
+- Frontend Mentor - @xluxeo
