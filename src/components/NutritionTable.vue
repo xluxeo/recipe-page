@@ -33,5 +33,29 @@ defineProps<{
 </script>
 
 <style scoped>
+  .c-nutrition-table__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  .c-nutrition-table__table tr + tr td {
+    border-block-start: 1px solid hsl(30, 20%, 94%);
+  }
+
+  td:first-child {
+    padding-block: 0.95rem;
+    padding-inline-start: 32px;
+    vertical-align: top;
+  }
+
+ td:last-child {
+    vertical-align: top;
+    inline-size: 50%;
+    padding: 0.95rem 0;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+  } 
 </style>
 

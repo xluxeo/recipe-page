@@ -1,23 +1,33 @@
 <template>
   <div class="c-recipe-page">
+    <section class="c-recipe-page__section">
     <RecipeHeader
       :title="recipe.recipeTitle"
       :description="recipe.description"
       :imageSrc="recipe.imageSrc"
     />
+    </section>
+    <section class="c-recipe-page__section">
     <RecipeMeta :title="recipe.metaTitle" :metaItems="recipe.metaItems" />
+    </section>
+    <section class="c-recipe-page__section">
     <IngredientsList
       :title="recipe.ingredientsTitle"
       :items="recipe.ingredients"
     />
+    </section>
+    <section class="c-recipe-page__section">
     <InstructionList
       :title="recipe.instructionsTitle"
       :items="recipe.instructions"
     />
+    </section>
+    <section class="c-recipe-page__section">
     <NutritionTable
       :title="recipe.nutritionTitle"
       :text="recipe.nutritionText"
     />
+    </section>
   </div>
 </template>
 
@@ -68,4 +78,8 @@ const recipe = {
     padding: 32px;
     background-color: hsl(0, 0%, 100%);
  }
+
+  .c-recipe-page__section:not(:last-child) {
+    margin-block-end: 24px;
+  }
 </style>

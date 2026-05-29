@@ -18,7 +18,7 @@ defineProps<{
 
 <style scoped>
   .c-recipe-header__title {
-    color: hsl(24, 5%, 18%)
+    color: hsl(24, 5%, 18%);
   }
 
   .c-recipe-header__image {
