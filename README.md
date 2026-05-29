@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL:  (https://github.com/xluxeo/recipe-page)
-- Live Site URL: (https://social-links-profile-eta-eight.vercel.app/)
+- Live Site URL: (https://recipe-page-nine-bay.vercel.app/)
 
 ## My process
 
