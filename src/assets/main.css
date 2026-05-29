@@ -18,3 +18,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     color: hsl(14, 45%, 36%);
 }
+
+/* Responsive adjustments for small screens */
+@media (max-width: 420px) {
+    body {
+        margin: 0;
+        inline-size: 100vw;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    h1, h2, h3 {
+        font-size: 1.25rem;
+    }
+
+    p, li {
+        font-size: 0.95rem;
+    }
+}

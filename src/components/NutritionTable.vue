@@ -34,7 +34,7 @@ defineProps<{
 
 <style scoped>
   .c-nutrition-table__table {
-    width: 100%;
+    inline-size: 100%;
     border-collapse: collapse;
     margin-inline-start: 0;
     margin-inline-end: 0;
@@ -57,5 +57,22 @@ defineProps<{
     font-weight: 700;
     color: hsl(14, 45%, 36%);
   } 
+
+  /* Mobile: keep two columns, prevent value wrapping */
+  @media (max-width: 420px) {
+    .c-nutrition-table__table {
+      table-layout: fixed;
+    }
+
+    .c-nutrition-table__table td:first-child {
+      padding-inline-start: 12px;
+    }
+
+    .c-nutrition-table__table td:last-child {
+      padding-inline-end: 12px;
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
 </style>
 

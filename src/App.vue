@@ -82,4 +82,14 @@ const recipe = {
   .c-recipe-page__section:not(:last-child) {
     margin-block-end: 24px;
   }
+
+  @media (max-width: 420px) {
+    .c-recipe-page {
+      padding: 0;
+    }
+
+    .c-recipe-page__section:not(:first-child) {
+      margin: 24px;
+    }
+  }
 </style>
